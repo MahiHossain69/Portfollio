@@ -1,0 +1,276 @@
+#about{
+    background-color: rgb(214, 214, 214);
+    padding: 200px 0;
+}
+h1{
+    position: relative;
+}
+.about_inner h1{
+    text-align: center;
+    color: black;
+    margin-top: -70px;
+}
+.about_inner h1::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 5%;
+    bottom: -10px;
+    transition: 0.5s;
+    left: 530px;
+}
+.about_inner h1::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 5%;
+    bottom: -10px;
+    transition: 0.5s;
+    right: 530.5px;
+}
+.about_inner h1:hover::after{
+    width:40%;
+    left: 10px;
+}
+.about_inner h1:hover::before{
+    width:40%;
+    right: -10px;
+}
+.about_inner p {
+    
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 80rem;
+    line-height: 1.6;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.about_inner h2{
+    margin-top: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+}
+strong{
+    font-weight: bold;
+
+    color: black;
+}
+.get_know_inner p{
+    max-width: 500px;
+    font-size: 18px;
+    text-align: justify;
+
+}
+.link {
+    color: rgb(255, 0, 0);
+}
+.skill h1 {
+    float: right;
+    margin-top: -527px;
+    margin-right: 370px;
+}
+
+.skills {
+    margin-top: -435px;
+    /* margin-bottom: 1.5rem; */
+    margin-right: 430px;
+    font-size: 20px;
+    background: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+    width: 85px;
+    height: 50px;
+    float: right;
+    padding: 9px 15px;
+    transition: 0.5s;
+}
+.skills:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.skills_one {
+    margin-top: -435px;
+    /* margin-bottom: 1.5rem; */
+    margin-right: 330px;
+    font-size: 20px;
+    background: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+    width: 85px;
+    height: 50px;
+    float: right;
+    padding: 9px 25px;
+    transition: 0.5s;
+}
+.skills_one:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.skills_two {
+    margin-top: -435px;
+    /* margin-bottom: 1.5rem; */
+    margin-right: 175px;
+    font-size: 20px;
+    background: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+    width: 140px;
+    height: 50px;
+    float: right;
+    padding: 8px 25px;
+    transition: 0.5s;
+}
+.skills_two:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.skills_three {
+    margin-top: -435px;
+    /* margin-bottom: 1.5rem; */
+    margin-right: 60px;
+    font-size: 20px;
+    background: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+    width: 100px;
+    height: 50px;
+    float: right;
+    padding: 8px 25px;
+    transition: 0.5s;
+
+}
+.skills_three:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.skills_four {
+    margin-top: -370px;
+    /* margin-bottom: 1.5rem; */
+    margin-right: 295px;
+    font-size: 20px;
+    background: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+    width: 220px;
+    height: 50px;
+    float: right;
+    padding: 8px 25px;
+    transition: 0.5s;
+}
+.skills_four:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.skills_five {
+    margin-top: -370px;
+    /* margin-bottom: 1.5rem; */
+    margin-right: 170px;
+    font-size: 20px;
+    background: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+    width: 110px;
+    height: 50px;
+    float: right;
+    padding: 9px 25px;
+    transition: 0.5s;
+}
+.skills_five:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.connect h2 {
+    float: right;
+    margin-right: 275px;
+   margin-top: -290px;
+}
+.icon {
+    float: right;
+    margin-right: 320px;
+    margin-top: -235px;
+    font-size: 35px;
+    color:  rgb(255, 255, 255);
+    display: flex;
+    gap: 20px;
+    transition: 0.5s;
+}
+
+.facebook a{
+    color: white;
+    margin-top:-14px;
+    transition: 0.5s;
+}
+.facebook a:hover{
+    color: rgb(0, 123, 255);
+}
+.twitter a{
+    color: white;
+    margin-top:-14px;
+    transition: 0.5s;
+}
+.twitter a:hover{
+    color: rgb(0, 123, 255);
+}
+.linkdin a{
+    color: white;
+    margin-top:-14px;
+    transition: 0.5s;
+}
+.linkdin a:hover{
+    
+    color: rgb(0, 123, 255);
+}
+.github a{
+    color: white;
+    margin-top:-14px;
+    transition: 0.5s;
+}
+.github a:hover{
+    color: black;
+}
+.glowing-button {
+    background-color: #000000; /* Button color */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .glowing-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+  
+  .glowing-button:hover::before {
+    opacity: 1;
+  }
+  
+  .glowing-button:hover {
+    background-color: #8700fd; /* Darker shade on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+  }  

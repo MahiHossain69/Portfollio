@@ -1,0 +1,97 @@
+.bg{
+    background-color: rgb(0, 0, 0);
+    height: 88px;
+    margin-top: 20px;
+}
+.logo {
+   width: 100px;
+  
+
+}
+.navbar-brand{
+    position: absolute;
+    left: 45%;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-nav {
+   
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+.home h2 {
+    font-family: "SUSE", sans-serif;
+    font-size:15px;
+    margin-top: 18px;
+  
+}
+.home a{
+    color: white;
+    text-decoration: none;
+}
+.link h2{
+    font-family: "SUSE", sans-serif;
+    font-size:15px;
+    margin-top: 18px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+#dropdown-basic h2{
+    font-family: "SUSE", sans-serif;
+    font-size:15px;
+   
+   
+}
+#dropdown-basic a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: black !important;
+    border: black !important;
+}
+.dropdown-toggle {
+   display: flex !important;
+   margin-top: 25px;
+}
+.dropdown-toggle::after {
+   
+    margin-left: 10px;
+    margin-top: 7px;
+}
+a{
+    position: relative;
+text-decoration: none !important;
+
+}
+.one a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    bottom: 5px;
+    transition: 0.5s;
+    left: 0;
+   
+    
+}
+.one a:hover::after{
+    width: 100%;
+}
+.service h2{
+    margin-left: 10px;
+    font-family: "SUSE", sans-serif;
+    font-size:15px;
+    margin-top: 18px;
+}
+.two{
+    margin-left: -54px;
+    position: absolute;
+    right: 80px;
+}

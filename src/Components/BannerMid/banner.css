@@ -1,0 +1,111 @@
+
+#banner {
+    padding: 200px 0;
+    /* background: linear-gradient(315deg, #393939 3%, rgb(31, 27, 35) 38%, rgb(0, 0, 0) 68%, rgb(21, 21, 21) 98%);
+    animation:  15s ease infinite; */
+    
+    background-size: 400% 400%;
+    margin-top: -110px;
+    height: 850px;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  #banner {
+    background: linear-gradient(45deg, #2c2c2c, #0f0f0f, #6f48b1, #131010);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    height: 625px; /* Adjust height as needed */
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=New+Amsterdam&family=SUSE:wght@100..800&display=swap');
+
+  .inner_banner h1{
+    color: white;
+    font-family: "Baskervville SC", serif;
+    margin-top: 60px;
+  }
+  .pragh h1{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    max-width: 700px;
+  }
+  .project{
+    margin: auto;
+  }
+  .project button {
+    background-color: #000000;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 189, 7);
+    width: 155px;
+    height: 40px;
+    transition: 0.5s;
+   
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=SUSE:wght@100..800&display=swap');
+.project a{
+  color: rgba(255, 225, 0, 0.925);
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.project button:hover {
+  background-color: white;
+ 
+ 
+}
+.home-hero__mouse-scroll-cont {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid #FFF;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.mouse::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 20px;
+  left: 8px;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 1;
+ animation-name: updown;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease;
+ transition: all .3s;
+}
+@keyframes updown {
+  0% 
+  { transform: translateY(0px); }
+
+  50% 
+  { transform: translateY(-14px) }
+  100%
+  {
+      transform: translateY(0px);
+  }
+}
+
+
